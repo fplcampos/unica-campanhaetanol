@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+.hover-item:hover .hover-paragraph,
+.active {
+    border-radius: 9999px; /* equivalente a 'rounded-full' no Tailwind */
+    padding: 0.5rem 1rem; /* equivalente a 'py-2 px-4' no Tailwind */
+    background-color: #047857; /* cor verde escura, equivalente a 'bg-dark-green' no Tailwind */
+    color: #fff; /* cor amarela clara, equivalente a 'text-light-yellow' no Tailwind */
+}
